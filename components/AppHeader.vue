@@ -46,7 +46,7 @@
 		justify-content: center;	
 
 		> h1, h5 {
-			@apply text-white;
+			@apply text-white text-center;
 		}
 
 		> h1 {
@@ -54,7 +54,7 @@
 		}
 
 		> h5 {
-			@apply text-xl text-center;
+			@apply text-xl;
 		}
 
 		> p {

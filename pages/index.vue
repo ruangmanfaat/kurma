@@ -10,7 +10,7 @@
 		<client-only>
 			<vue-scroll-indicator 
 				height="2px"
-				color="text-gray-700"
+				color="#212529"
 				background="text-gray-500"
 			/>
 		</client-only>

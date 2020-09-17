@@ -62,6 +62,9 @@
 
 			> h1 {
 				@apply text-4xl;
+				@media screen and (max-width: 576px) {
+					line-height: 1.5;
+				}
 			}
 
 			> h5 {
@@ -93,6 +96,9 @@
 		&__testi {
 			display: flex;
 			flex-direction: column;
+			@media (max-width: 576px) {
+				margin-top: 1rem;
+			}
 
 			> h1 {
 				@apply text-4xl;
