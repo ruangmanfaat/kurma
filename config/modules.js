@@ -2,7 +2,6 @@ require('dotenv').config();
 
 export default [
 	'@nuxtjs/tailwindcss',
-	'@nuxtjs/fontawesome',
 	[
 		'nuxt-responsive-loader', {
 			size: 1920,

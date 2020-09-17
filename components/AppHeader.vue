@@ -28,6 +28,10 @@
 		z-index: -1;
 		margin-top: -10rem;
 
+		@media screen and (max-width: 576px) {
+			margin-top: -8rem;
+		}
+
 		img {
 			@apply h-128 object-cover;
 			filter: brightness(30%);
@@ -41,7 +45,7 @@
 		align-items: center;
 		justify-content: center;	
 
-		> h1, h5, p {
+		> h1, h5 {
 			@apply text-white;
 		}
 
@@ -50,15 +54,20 @@
 		}
 
 		> h5 {
-			@apply text-xl;
+			@apply text-xl text-center;
 		}
 
 		> p {
-			@apply mt-2;
+			@apply mt-2 text-white text-center;
 		}
 
 		> button {
-			@apply py-4 px-6 rounded text-white bg-red-600 text-base mt-4;
+			@apply py-2 px-4 rounded text-white bg-red-600 text-base mt-4;
+		}
+
+		@media screen and (max-width: 576px) {
+			padding-right: 1rem;
+			padding-left: 1rem;
 		}
 	}
 }

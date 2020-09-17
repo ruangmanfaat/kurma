@@ -54,7 +54,11 @@ export default {
 		justify-content: center;
 
 		> h1 {
-			@apply text-3xl;
+			@apply text-3xl text-center;
+		}
+
+		> p {
+			@apply text-center;
 		}
 	}
 
@@ -65,6 +69,10 @@ export default {
 
 		&__wrap {
 			width: 40%;
+
+			@media screen and (max-width: 768px) {
+				width: 70%;
+			}
 		}
 	}
 }

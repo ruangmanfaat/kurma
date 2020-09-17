@@ -19,7 +19,7 @@
 
 	&__title {
 		> h3 {
-			@apply text-2xl;
+			@apply text-2xl text-center;
 		}
 	}
 

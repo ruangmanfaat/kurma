@@ -41,11 +41,20 @@
 	align-items: center;
 	justify-content: center;
 
+	@media screen and (max-width: 576px) {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
 	&__desc {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		align-items: center;
 		justify-content: center;
+
+		@media screen and (max-width: 768px) {
+			grid-template-columns: 1fr;
+		}
 
 		&__desc {
 			display: flex;
@@ -77,6 +86,10 @@
 		grid-template-columns: 1fr 1fr;
 		justify-content: center;
 
+		@media screen and (max-width: 768px) {
+			grid-template-columns: 1fr;
+		}
+
 		&__testi {
 			display: flex;
 			flex-direction: column;
@@ -91,6 +104,10 @@
 
 			> ul > li {
 				@apply px-6 py-4 border-b border-gray-300;
+				@media screen and (max-width: 576px) {
+					padding-left: .5rem;
+					padding-right: .5rem;
+				}
 
 				> span {
 					@apply mr-3;

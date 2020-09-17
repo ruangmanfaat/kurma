@@ -17,10 +17,8 @@
   }
 
   &__link {
-    @apply block w-12 h-12 rounded-full shadow-md no-underline text-center text-2xl;
+    @apply block w-12 h-12 rounded-full shadow-md no-underline text-center text-2xl bg-gray-200 text-gray-700;
     line-height: 1.8;
-    background-color: var(--card-bg);
-    color: var(--text-normal);
 
     &:focus {
       @apply outline-none;
@@ -35,7 +33,7 @@
 @media (max-width: 992px) {
   .to-top {
     &__link {
-      background-color: var(--bg);
+      background-color: #edf2f7;
     }
   }
 }

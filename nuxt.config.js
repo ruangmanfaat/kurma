@@ -56,13 +56,6 @@ export default {
   ** Nuxt.js modules
   */
 	modules,
-	fontawesome: {
-  	component: 'fa',
-  	icons: {
-  		solid: true,
-  		brands: true
-  	}
-  },
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/

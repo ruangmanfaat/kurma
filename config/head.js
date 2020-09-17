@@ -1,9 +1,9 @@
 export default {
   titleTemplate(title) {
     if (title) {
-      return `${title} - Erlangga`
+      return `${title} - Kurma`
     }
-    return 'Erlangga'
+    return 'Kurma'
   },
   htmlAttrs: {
 		lang: 'en'
